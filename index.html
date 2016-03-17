@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Predix Javascript Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            <!--
+                function displayInfo()
+                {
+                    var display = document.getElementById('header');
+                    var name = document.getElementById('name');
+                    var sso = document.getElementById('sso');
+                
+                    display.innerHTML = name.value + " " + sso.value;
+                }
+                function basicValidation()
+                {
+                    if (document.myForm.name.value === "")
+                    {
+                        alert("Please provide your name.");
+                        document.myForm.name.focus();
+                        return false;
+                    }
+                    if (document.myForm.sso.value === "")
+                    {
+                        alert("Please provide your SSO.");
+                        document.myForm.sso.focus();
+                        return false;
+                    }
+                    return (true);
+                }
+            //-->
+        </script>
+    </head>
+    <body>
+        <p id="header"></p>
+        <h1>Chisom's JavaScript Test</h1>
+        <form id="form1" name ="myForm">
+            <fieldset>
+                <legend>Enter your name and SSO</legend>
+                <label for="name">
+                    <span>Name:</span>
+                    <input type="text" id="name" name="name" size="50">
+                </label>
+                <label for="sso">
+                    <span>SSO:</span>
+                    <input type="number" id="sso" name="sso">
+                </label>
+                <label for="submit1" id="submit"><span>&nbsp;</span>
+                    <input id="submit1" type="button" name="submit" value="Submit" onclick="displayInfo();"/>
+                </label>
+            </fieldset>
+        </form>
+        <script type="text/javascript">
+            
+            <!--
+    
+            //-->
+        </script>
+        <noscript>
+            JavaScript is needed to proceed.
+        </noscript>
+    </body>
+</html>
